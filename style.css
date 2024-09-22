@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+.header{
+    margin: 0 auto;
+}
+.header-content{
+    margin: 0 auto;
+    padding: 0 57px 0 40px;
+    background-color: #0C0E1866;
+    width: 1441px;
+    height: 64px;
+}
+.header-element{
+    margin: 13px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header-element ul{
+    color: white;
+    display: flex;    
+    align-items: center;
+}
+.ul1{
+    gap: 29px;
+}
+.ul2{
+    gap: 24px;
+}
+.маг-битва{
+    font-size: 24px;
+    font-weight: 600;
+}
+.наруто{
+    display: none;
+    width: 83px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+.вход{
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #BFAFF2;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+.option{
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    font-weight: 600;
+}
+.section{
+    margin: 0 auto;
+    padding: 0 0 0 40px;
+}
+.section-element{
+    display: flex;
+    gap: 16px;
+}
+.box{
+    margin: 117px 0 125px 0;
+    width: 325px;
+    height: 532px;
+}
+.img-name{
+    z-index: 2;
+    position: relative;
+    margin: 0 0 0 38.5px;
+}
+.name{
+    padding: 59px 0 0 0;
+    width: 325px;
+    height: 240px;
+    background-color: #232028;
+    border-radius: 32px;
+    position: absolute;
+    z-index: 1;
+    top: 487px;
+    color: white;
+}
+.name h1{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.name p{
+    width: 293px;
+    height: 102px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0 0 0;
+    line-height: 16.8px;
+    text-align: center;
+}
+.footer{
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 1440px;
+    height: 64px;
+    background-color: #0C0E1866;
+}
+.footer-element{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-element h1{
+    margin: 20px 0 0 0;
+}
+.footer-element ul{
+    margin: 20px 0 0 0;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.footer-element ul li a{
+    color: white;
+}
